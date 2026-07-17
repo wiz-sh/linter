@@ -26,8 +26,6 @@ import { applyLintFixes, lintSourceFile } from "@wiz-sh/linter";
 
 ## Development
 
-Place the compiler and types repositories beside this checkout:
-
 ```console
 bun install
 bun run check
