@@ -4,7 +4,7 @@ Read `WIZ.md` for the product model before changing public behavior.
 
 ## Ownership
 
-This repository owns `@wiz/formatter` and `@wiz/linter`. Both consume compiler syntax and semantic APIs; neither may introduce a competing parser, binder, or resolver.
+This repository owns `@wiz-sh/formatter` and `@wiz-sh/linter`. Both consume compiler syntax and semantic APIs; neither may introduce a competing parser, binder, or resolver.
 
 ## Engineering rules
 

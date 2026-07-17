@@ -3,7 +3,7 @@ import {
     type SourceFile,
     SyntaxKind,
     type SyntaxToken,
-} from "@wiz/compiler";
+} from "@wiz-sh/compiler";
 import type { FormatOptions } from "./options.ts";
 import { defaultFormatOptions } from "./options.ts";
 import type { FormatRange } from "./range.ts";

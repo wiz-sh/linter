@@ -1,4 +1,4 @@
-import type { BindingResult, SourceFile, TextRange } from "@wiz/compiler";
+import type { BindingResult, SourceFile, TextRange } from "@wiz-sh/compiler";
 
 export type RuleCategory = "correctness" | "safety" | "suspicious" | "style";
 export type RuleSeverity = "off" | "warning" | "error";

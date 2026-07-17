@@ -23,14 +23,14 @@ jobs:
         runs-on: ubuntu-latest
         timeout-minutes: 30
         steps:
-            - uses: actions/checkout@v4
+            - uses: actions/checkout@v7
               with:
                   path: suite/linter
-            - uses: actions/checkout@v4
+            - uses: actions/checkout@v7
               with:
                   repository: wiz-sh/compiler
                   path: suite/compiler
-            - uses: actions/checkout@v4
+            - uses: actions/checkout@v7
               with:
                   repository: wiz-sh/types
                   path: suite/types

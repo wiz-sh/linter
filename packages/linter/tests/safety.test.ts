@@ -1,5 +1,5 @@
 import { expect, test } from "bun:test";
-import { parseSourceFile } from "@wiz/compiler";
+import { parseSourceFile } from "@wiz-sh/compiler";
 import { lintSourceFile } from "../src/index.ts";
 
 test("dangerous evaluation and invalid statuses are reported", () => {

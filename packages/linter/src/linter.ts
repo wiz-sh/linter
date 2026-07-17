@@ -3,7 +3,7 @@ import {
     bindSourceFile,
     type SourceFile,
     type Statement,
-} from "@wiz/compiler";
+} from "@wiz-sh/compiler";
 import type { LinterOptions } from "./config.ts";
 import { getRule, registeredCustomRules, rules } from "./registry.ts";
 import type { LintDiagnostic, LintFix, RuleSeverity } from "./rule.ts";

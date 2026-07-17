@@ -7,7 +7,7 @@
         "outDir": "./dist",
         "rootDir": "./src",
         "paths": {
-            "@wiz/compiler": [
+            "@wiz-sh/compiler": [
                 "../../../compiler/packages/compiler/dist/index.d.ts"
             ]
         }

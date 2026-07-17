@@ -1,5 +1,5 @@
 import { expect, test } from "bun:test";
-import { parseSourceFile } from "@wiz/compiler";
+import { parseSourceFile } from "@wiz-sh/compiler";
 import {
     applyLintFixes,
     diagnosticsToSarif,

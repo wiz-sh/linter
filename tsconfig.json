@@ -11,19 +11,19 @@
         "verbatimModuleSyntax": true,
         "allowImportingTsExtensions": true,
         "paths": {
-            "@wiz/config": [
+            "@wiz-sh/config": [
                 "../compiler/packages/config/src/index.ts"
             ],
-            "@wiz/compiler": [
+            "@wiz-sh/compiler": [
                 "../compiler/packages/compiler/src/index.ts"
             ],
-            "@wiz/formatter": [
+            "@wiz-sh/formatter": [
                 "./packages/formatter/src/index.ts"
             ],
-            "@wiz/linter": [
+            "@wiz-sh/linter": [
                 "./packages/linter/src/index.ts"
             ],
-            "@wiz/types/*": [
+            "@wiz-sh/types/*": [
                 "../types/wiz/types/*"
             ]
         },

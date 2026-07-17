@@ -1,7 +1,13 @@
 {
-    "name": "@wiz/formatter",
+    "name": "@wiz-sh/formatter",
     "version": "0.1.0",
+    "description": "Lossless, deterministic formatter and minifier for Wiz shell source",
     "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/wiz-sh/linter.git",
+        "directory": "packages/formatter"
+    },
     "type": "module",
     "types": "./dist/index.d.ts",
     "exports": {
@@ -11,10 +17,19 @@
             "default": "./dist/index.js"
         }
     },
+    "files": [
+        "dist"
+    ],
     "scripts": {
         "build": "bun build ./src/index.ts --outdir ./dist --target bun --format esm && tsc --project ./tsconfig.build.json"
     },
     "dependencies": {
-        "@wiz/compiler": "^0.1.0"
+        "@wiz-sh/compiler": "^0.1.0"
+    },
+    "publishConfig": {
+        "access": "public"
+    },
+    "engines": {
+        "bun": ">=1.2.0"
     }
 }
