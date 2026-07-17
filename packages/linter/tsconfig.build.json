@@ -8,7 +8,7 @@
         "rootDir": "./src",
         "paths": {
             "@wiz/compiler": [
-                "../compiler/dist/index.d.ts"
+                "../../../compiler/packages/compiler/dist/index.d.ts"
             ]
         }
     },
